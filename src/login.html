@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="../dist/style.css">
 </head>
 <body class="bg-Neutral-1000 py-[237] px-[178]">
-    <main class="flex gap-x-24 justify-center items-center h-screen">
+    <main class="flex justify-center items-center h-screen">
         <div class="flex items-center"> <!-- logo -->
             <img src="./public/images/Frame 27180.png" alt="100x-Logo" class="">
         </div>
-
-        <div class="flex-col pl-7"> <!-- Login-SignUp -->
+<!-- remove all [] and add to config -->
+        <div class="flex flex-col pl-7 gap-10"> <!-- Login-SignUp -->
             <div class="mb-10">
                 <p class="text-neutral-50 text-5xl font-bold font-inter"> <!-- Happening now -->
                     Happening now
@@ -22,18 +22,13 @@
                 </p>
             </div>
 
-            <div class="text-white mb-10">  <!-- Create Account Button -->
+            <div class="text-white">  <!-- Create Account Button -->
                 <button class="bg-neutral-50 shadow-button py-2 px-6 rounded-button backdrop-blur-xl">
                     <p class="text-Neutral-1000 w-72 font-inter font-bold">Create Account</p>
                 </button>
             </div>
-            
-            <!-- <div class="inline-flex items-center justify-center w-full">
-                <hr class="w-64 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
-                <span class="absolute px-3 font-medium text-gray-900 -translate-x-1/2 bg-white left-1/2 dark:text-white dark:bg-gray-900">or</span>
-            </div> -->
 
-            <div class="flex mb-10 items-center"> <!-- --or-- -->
+            <div class="flex items-center"> <!-- --or-- -->
                 <hr class="w-[155.5px] h-[1]">
                 <p class="mx-1 text-neutral-50">
                     or
@@ -41,18 +36,23 @@
                 <hr class="w-[155.5px] h-[1]">
             </div>
 
-            <div class="text-white mb-5">  <!-- Already have a account -->
-                <p class="text-neutral-50 font-inter text-xl font-medium">
-                    Already have an account
-                </p>
+            <div class="flex flex-col">
+                <div class="text-white mb-5">  <!-- Already have a account -->
+                    <p class="text-neutral-50 font-inter text-xl font-medium">
+                        Already have an account
+                    </p>
+                </div>
+    
+                <div class="text-white"> <!-- Signup Button -->
+                    <button class="shadow-button py-2 px-6 rounded-button backdrop-blur-xl border border-[#1d9bf03d]">
+                        <p class="text-Twitter-Blue w-72 font-inter font-bold">Sign in</p>
+                    </button>
+                </div>
             </div>
 
-            <div class="text-white mb-10"> <!-- Signup Button -->
-                <button class="shadow-button py-2 px-6 rounded-button backdrop-blur-xl border border-Twitter-Blue">
-                    <p class="text-Twitter-Blue w-72 font-inter font-bold">Sign in</p>
-                </button>
-            </div>
+            
         </div>
     </main>
+
 </body>
 </html>
