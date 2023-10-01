@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../dist/style.css">
+    <title>Input Components</title>
+</head>
+<body class="bg-neutral-950 flex flex-col py-10 justify-center">
+
+    <a href="./index.html" class="text-neutral-50 w-max">&lt; Back</a>
+    
+    <!-- Label Text Box -->
+    <div class="flex justify-center mb-10">
+        <!-- Label Box Starts -->
+        <form action="#">
+            <fieldset class="flex border border-neutral-500 px-3 py-4 rounded bg-transparent text-neutral-50 focus-within:border-Twitter-Blue-Default">
+                <input type="text" name="Label" id="label" placeholder="label" class="peer bg-transparent border-none placeholder-slate-400 focus:outline-none  focus:ring-neutral-950 p-0 w-100.5 caret-transparent">
+                <legend class="text-neutral-500 peer-focus:text-Twitter-Blue-Default px-3" >Label</legend>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="w-6 h-6 hidden peer-focus:block">
+                    <path d="M12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2ZM10 17L5 12L6.41 10.59L10 14.17L17.59 6.58L19 8L10 17Z" fill="#00BE74"/>
+                </svg>
+            </fieldset>
+        </form>
+        <!-- Label Box Ends -->
+    </div>
+
+    <!-- Text box with profile pic -->
+    <div class="flex justify-center mb-10">
+        <!-- Use below code -->
+        <div class="flex gap-3 h-9 w-108.5">
+            <div class="align-middle">
+                <img src="./public/images/profile_pic.png" alt="profile_pic" class="h-9 w-9 rounded-full p-0">
+            </div>
+            <div class="w-full">
+                <input type="text" name="thought" id="thought" class="font-inter text-xl border h-9 w-full bg-transparent border-none text-neutral-50 focus:outline-none  focus:ring-neutral-950 caret-Twitter-Blue-Default" placeholder="What's happening?!">
+            </div>
+        </div>
+        <!-- Text box ends here -->
+    </div>
+    
+    <!-- Search Box -->
+    <div class="flex justify-center mb-10">
+        <!-- Search Box Starts -->
+        <div class="flex bg-Searchbar-Fill rounded-full w-87 py-2.5 px-4 gap-4 focus-within:border focus-within:border-Twitter-Blue-Default items-center">
+            <input type="text" name="SearchBar" id="search" class="peer bg-transparent text-neutral-50 border-none focus:outline-none focus:ring-transparent w-full p-0" placeholder="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none" class="order-first peer-focus:hidden">
+                    <path d="M16.0446 15.2054L13.1471 12.3079C14.1961 11.065 14.8334 9.46109 14.8334 7.70834C14.8334 3.77375 11.643 0.583336 7.70837 0.583336C3.77379 0.583336 0.583374 3.77375 0.583374 7.70834C0.583374 11.6429 3.77379 14.8333 7.70837 14.8333C9.46192 14.8333 11.065 14.1968 12.3064 13.1471L15.2039 16.0446C15.3202 16.1602 15.473 16.2188 15.6235 16.2188C15.7739 16.2188 15.9282 16.161 16.043 16.0446C16.2766 15.8126 16.2766 15.4374 16.0446 15.2054ZM1.77087 7.70834C1.77087 4.43479 4.43483 1.77084 7.70837 1.77084C10.9819 1.77084 13.6459 4.43479 13.6459 7.70834C13.6459 10.9819 10.9819 13.6458 7.70837 13.6458C4.43483 13.6458 1.77087 10.9819 1.77087 7.70834Z" class="fill-neutral-500" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none" class="order-first hidden peer-focus:block">
+                <path d="M16.0446 15.2054L13.1471 12.3079C14.1961 11.065 14.8334 9.46108 14.8334 7.70833C14.8334 3.77375 11.643 0.583328 7.70837 0.583328C3.77379 0.583328 0.583374 3.77375 0.583374 7.70833C0.583374 11.6429 3.77379 14.8333 7.70837 14.8333C9.46192 14.8333 11.065 14.1968 12.3064 13.1471L15.2039 16.0446C15.3202 16.1602 15.473 16.2187 15.6235 16.2187C15.7739 16.2187 15.9282 16.161 16.043 16.0446C16.2766 15.8126 16.2766 15.4374 16.0446 15.2054ZM1.77087 7.70833C1.77087 4.43479 4.43483 1.77083 7.70837 1.77083C10.9819 1.77083 13.6459 4.43479 13.6459 7.70833C13.6459 10.9819 10.9819 13.6458 7.70837 13.6458C4.43483 13.6458 1.77087 10.9819 1.77087 7.70833Z" class="fill-Twitter-Blue-Default"/>
+            </svg>
+        </div>
+        <!-- Search box ends -->
+    </div>
+
+
+</body>
+</html>
