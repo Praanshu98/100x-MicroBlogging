@@ -709,6 +709,14 @@ select {
   order: -9999;
 }
 
+.m-8 {
+  margin: 2rem;
+}
+
+.m-10 {
+  margin: 2.5rem;
+}
+
 .mx-1 {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
@@ -717,6 +725,11 @@ select {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .mb-10 {
@@ -737,6 +750,10 @@ select {
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .flex {
@@ -781,6 +798,34 @@ select {
 
 .h-4\.5 {
   height: 18px;
+}
+
+.h-\[482px\] {
+  height: 482px;
+}
+
+.h-\[335px\] {
+  height: 335px;
+}
+
+.h-\[355px\] {
+  height: 355px;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-\[143px\] {
+  height: 143px;
+}
+
+.h-\[233px\] {
+  height: 233px;
 }
 
 .w-100\.5 {
@@ -860,6 +905,26 @@ select {
   width: 18px;
 }
 
+.w-\[365px\] {
+  width: 365px;
+}
+
+.w-\[335\] {
+  width: 335;
+}
+
+.w-\[482px\] {
+  width: 482px;
+}
+
+.w-\[512px\] {
+  width: 512px;
+}
+
+.w-\[233px\] {
+  width: 233px;
+}
+
 .list-decimal {
   list-style-type: decimal;
 }
@@ -896,6 +961,18 @@ select {
   gap: 10rem;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-y-3 {
+  row-gap: 0.75rem;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -912,8 +989,16 @@ select {
   border-radius: 9999px;
 }
 
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
 .border {
   border-width: 1px;
+}
+
+.border-\[16px\] {
+  border-width: 16px;
 }
 
 .border-b-2 {
@@ -981,6 +1066,11 @@ select {
   background-color: transparent;
 }
 
+.bg-slate-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
 .fill-Twitter-Blue-Default {
   fill: #1D9BF0;
 }
@@ -995,6 +1085,10 @@ select {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .px-20 {
@@ -1082,6 +1176,10 @@ select {
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .text-center {
