@@ -779,6 +779,10 @@ select {
   height: 3rem;
 }
 
+.h-35\.75 {
+  height: 143px;
+}
+
 .h-4 {
   height: 1rem;
 }
@@ -811,24 +815,12 @@ select {
   height: 2.25rem;
 }
 
-.h-\[143px\] {
-  height: 143px;
-}
-
-.h-\[233px\] {
-  height: 233px;
-}
-
 .h-full {
   height: 100%;
 }
 
 .h-screen {
   height: 100vh;
-}
-
-.h-35\.75 {
-  height: 143px;
 }
 
 .w-100\.5 {
@@ -903,8 +895,8 @@ select {
   width: 394px;
 }
 
-.w-\[482px\] {
-  width: 482px;
+.w-\[426px\] {
+  width: 426px;
 }
 
 .w-full {
@@ -916,8 +908,8 @@ select {
   width: max-content;
 }
 
-.w-\[512px\] {
-  width: 512px;
+.w-106\.5 {
+  width: 426px;
 }
 
 .list-decimal {
