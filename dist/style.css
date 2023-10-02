@@ -827,6 +827,10 @@ select {
   width: 402px;
 }
 
+.w-106\.5 {
+  width: 426px;
+}
+
 .w-108\.5 {
   width: 434px;
 }
@@ -895,10 +899,6 @@ select {
   width: 394px;
 }
 
-.w-\[426px\] {
-  width: 426px;
-}
-
 .w-full {
   width: 100%;
 }
@@ -906,10 +906,6 @@ select {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-106\.5 {
-  width: 426px;
 }
 
 .list-decimal {
