@@ -879,6 +879,10 @@ select {
   width: 18px;
 }
 
+.w-44 {
+  width: 11rem;
+}
+
 .w-6 {
   width: 1.5rem;
 }
@@ -906,6 +910,10 @@ select {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-43 {
+  width: 172px;
 }
 
 .list-decimal {
@@ -1259,8 +1267,8 @@ select {
   caret-color: transparent;
 }
 
-.opacity-5 {
-  opacity: 0.05;
+.opacity-50 {
+  opacity: 0.5;
 }
 
 .shadow-button {
@@ -1357,8 +1365,8 @@ input[type="radio"]:checked + label {
   --tw-ring-color: transparent;
 }
 
-.disabled\:opacity-5:disabled {
-  opacity: 0.05;
+.disabled\:opacity-50:disabled {
+  opacity: 0.5;
 }
 
 .peer:checked ~ .peer-checked\:block {
